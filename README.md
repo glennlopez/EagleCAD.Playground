@@ -15,8 +15,7 @@ This is where I host all my gerber files that are non-project related. Most are 
 | SCRIPTS     | Scripts I created/and use for automating tasks | 
 | USER LIBRARY     | Collection of libraries I created/and use | 
 
-```javascript
-"Note:" CAM files are stored in my "Dropbox" which is localy bridged to my CNC machine for milling and is not shared in this git. 
+**Note:** CAM files are stored in my "Dropbox" which is localy bridged to my CNC machine for milling and is not shared in this git. 
 
 ### Learning/Referance material
 * https://www.sparkfun.com/tutorials/108
