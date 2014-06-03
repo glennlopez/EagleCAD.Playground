@@ -4,7 +4,6 @@ Gerber Playground
 =================
 This is where I host all my gerber files that are non-project related. Most are trials, some are personal mini projects, others eventually make it to become its own larger project which are then moved into its own repository never to be seen here ever again.
 
-![alt text](https://www.sparkfun.com/tutorial/Eagle-DFM/Routing-M.jpg "Schematic view")
 >The Gerber format is an open 2D bi-level vector image file format.[1] It is the de facto standard used by printed circuit board (PCB) industry software to describe the printed circuit board images: copper layers, solder mask, legend, drill holes, etc.
 
 ### Folder Structure
@@ -12,7 +11,7 @@ This is where I host all my gerber files that are non-project related. Most are 
 | Folder Name        | Description           |
 | ------------- |:--------------------:| 
 | DESIGN RULES     | For designing PCBs in Eagle. This is a list of rules that I have forged over the years | 
-| PROJECTS     | Where you will find | 
+| PROJECTS     | Where you will find my gerber files| 
 | SCRIPTS     | Scripts I created/and use for automating tasks | 
 | USER LIBRARY     | Collection of libraries I created/and use | 
 
