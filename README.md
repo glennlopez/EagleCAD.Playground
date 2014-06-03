@@ -14,8 +14,8 @@ This is where I host all my gerber files that are non-project related. Most are 
 | PROJECTS     | Where you will find my gerber files| 
 | SCRIPTS     | Scripts I created/and use for automating tasks | 
 | USER LIBRARY     | Collection of libraries I created/and use | 
+| CAM    | Collection of CAM files for converting brd files to gerber | 
 
-**Note:** CAM files are stored in my "Dropbox" which is localy bridged to my CNC machine for milling and is not shared in this git. 
 
 ### Learning/Referance material
 * https://www.sparkfun.com/tutorials/108
