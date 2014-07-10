@@ -3,8 +3,7 @@
 EagleCAD Playground
 =================
 This is where I host all my EagleCAD files that are non-project related. Most are trials, some are personal mini projects, others eventually make it to become its own larger project which are then moved into its own repository never to be seen here ever again.
-
-Inline-style: 
+ 
 ![EagleCAD logo](http://dangerousprototypes.com/wp-content/media/2012/01/cs-logo21.jpg "Logo")
 
 >EAGLE (for: Easily Applicable Graphical Layout Editor, German: Einfach anzuwendender grafischer Layout-Editor) by CadSoft Computer is a flexible, expandable and scriptable EDA application with schematic capture editor, PCB layout editor, auto-router and CAM and BOM tools developed by CadSoft Computer GmbH, Germany, since 1988.
