@@ -19,6 +19,7 @@ The CNC files for milling the PCB's are stored in [my Dropbox](https://www.dropb
 | SCRIPTS     | Scripts I created/and use for automating tasks | 
 | USER LIBRARY     | Collection of libraries I created/and use | 
 | CAM    | Collection of CAM files for converting brd files to gerber | 
+| PCB-GCODE | used to convert brd files to gcode | 
 
 ### Learning/Referance material
 * https://www.sparkfun.com/tutorials/108
