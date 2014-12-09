@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -225,9 +225,9 @@
 <text x="30.6387" y="8.0963" size="1.016" layer="100">Optional SMT C-byp</text>
 <text x="31.2737" y="33.1788" size="1.016" layer="100">Optional SMT C-aref</text>
 <text x="69.5325" y="28.2575" size="1.4224" layer="21" ratio="16">V 1.0</text>
-<text x="76.835" y="28.2575" size="1.4224" layer="16" ratio="16" rot="MR0">GLENN</text>
+<text x="76.835" y="28.2575" size="1.4224" layer="16" ratio="16" rot="MR0">WESTFW</text>
 <text x="0.3175" y="-4.445" size="1.27" layer="100">By: Glenn Lopez </text>
-<text x="0.3175" y="-2.2225" size="1.27" layer="100">BareBones-Arduino (single side)</text>
+<text x="0.3175" y="-2.2225" size="1.27" layer="100">Single Side Bare-Arduino</text>
 </plain>
 <libraries>
 <library name="atmel">
@@ -806,9 +806,6 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="12.5mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="*"/>
 <param name="PrefDir.2" value="0"/>
@@ -1176,6 +1173,7 @@ design rules under a new name.</description>
 <wire x1="35.0837" y1="19.685" x2="34.925" y2="19.5263" width="0.4" layer="16"/>
 <wire x1="13.6906" y1="25" x2="13.6906" y2="22.9807" width="0.2" layer="1"/>
 <wire x1="13.6906" y1="22.9807" x2="13.8113" y2="22.86" width="0.2" layer="1"/>
+<wire x1="13.6906" y1="20.32" x2="13.8113" y2="22.86" width="0" layer="19" extent="1-1"/>
 <via x="60.325" y="25.4" extent="1-16" drill="0.8" shape="square"/>
 <via x="65.7225" y="22.5425" extent="1-16" drill="0.8" shape="square"/>
 <polygon width="0.2" layer="16" isolate="0.3048">
@@ -1184,7 +1182,6 @@ design rules under a new name.</description>
 <vertex x="78.74" y="11.1125"/>
 <vertex x="78.74" y="30.9563"/>
 </polygon>
-<wire x1="13.6906" y1="20.32" x2="13.8113" y2="22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="9"/>

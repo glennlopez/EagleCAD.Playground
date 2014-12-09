@@ -227,7 +227,7 @@
 <text x="69.5325" y="28.2575" size="1.4224" layer="21" ratio="16">V 1.0</text>
 <text x="76.835" y="28.2575" size="1.4224" layer="16" ratio="16" rot="MR0">WESTFW</text>
 <text x="0.3175" y="-4.445" size="1.27" layer="100">By: Glenn Lopez </text>
-<text x="0.3175" y="-2.2225" size="1.27" layer="100">Single Side Bare-Arduino</text>
+<text x="0.3175" y="-2.2225" size="1.27" layer="100">BareBones-Arduino (single side)</text>
 </plain>
 <libraries>
 <library name="atmel">
