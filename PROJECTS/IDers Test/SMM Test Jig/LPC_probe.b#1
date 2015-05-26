@@ -126,6 +126,8 @@
 <wire x1="0" y1="35.23" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="17.76" y1="35.23" x2="17.78" y2="0" x3="21.581440625" y3="17.6171625" textsize="1.778" layer="20"/>
 <dimension x1="17.76" y1="35.23" x2="0" y2="35.23" x3="8.88" y3="-5.08" textsize="1.778" layer="20"/>
+<hole x="13.97" y="3.81" drill="1.1"/>
+<hole x="3.81" y="30.48" drill="1.1"/>
 </plain>
 <libraries>
 <library name="con-leotronics">
