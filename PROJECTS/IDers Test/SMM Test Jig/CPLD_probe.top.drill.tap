@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../IDers Test/SMM Test Jig/CPLD_probe.brd)
 (Current profile is .../EagleCAD.Playground/PCB-GCODE/profiles/mach.pp  )
-(This file generated 5/25/2015 7:49:00 PM)
+(This file generated 5/25/2015 8:53:24 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 3.0000)
 (spindle speed = 20000.0000)
@@ -22,6 +22,7 @@
 (Unit of measure: inch)
 ( Tool|       Size       |  Min Sub |  Max Sub |   Count )
 ( T01 | 1.016mm 0.0400in | 0.0000in | 0.0000in |       0 )
+( T02 | 1.100mm 0.0433in | 0.0000in | 0.0000in |       0 )
 (Inch Mode)
 G20
 (Absolute Coordinates)
@@ -51,6 +52,16 @@ G82 X0.3000  Y1.0000
 G82 X0.3000  Y0.9000  
 G82 X0.3000  Y1.1000  
 G82 X0.4000  Y1.1000  
+M05
+G00 Z1.0000  
+G00 X0.0000  Y0.0000  
+M06 T02  ; 0.0433  
+G01 Z0.0000  F20    
+M06 
+G00 Z0.3000  
+M03
+G04 P3.000000
+G82 X0.3500  Y0.6500  Z-0.0630 F20    R0.3000  P1.000000
 T01 
 G00 Z0.5000  
 M05

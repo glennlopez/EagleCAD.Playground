@@ -2,18 +2,18 @@ EAGLE AutoRouter Statistics:
 
 Job           : D:/Github Clones/EagleCad.Playground/PROJECTS/IDers Test/SMM Test Jig/CPLD_probe.brd
 
-Start at      : 19:40:34 (5/25/2015)
-End at        : 19:40:47 (5/25/2015)
-Elapsed time  : 00:00:08
+Start at      : 20:44:03 (5/25/2015)
+End at        : 20:44:18 (5/25/2015)
+Elapsed time  : 00:00:09
 
 Signals       :     7   RoutingGrid: 6.25 mil  Layers: 1
 Connections   :    10   predefined:  0 ( 0 Vias )
 
-Router memory :   55200
+Router memory :   88110
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:08  00:00:00  00:00:00  00:00:00  00:00:00
+Time per pass     :  00:00:09  00:00:00  00:00:00  00:00:00  00:00:00
 Number of Ripups  :       400         0         0         0         0
 max. Level        :         2         0         0         0         0
 max. Total        :         3         0         0         0         0
